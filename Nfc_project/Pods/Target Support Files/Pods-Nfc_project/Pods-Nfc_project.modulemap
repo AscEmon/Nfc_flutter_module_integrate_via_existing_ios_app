@@ -1,4 +1,4 @@
-framework module Pods_Nfc_project {
+module Pods_Nfc_project {
   umbrella header "Pods-Nfc_project-umbrella.h"
 
   export *

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C42A1C7058785CC022378A69FE0780D4"
-               BuildableName = "Pods_Nfc_project.framework"
+               BuildableName = "libPods-Nfc_project.a"
                BlueprintName = "Pods-Nfc_project"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

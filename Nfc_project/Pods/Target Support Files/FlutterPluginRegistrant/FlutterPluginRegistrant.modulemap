@@ -1,4 +1,4 @@
-framework module FlutterPluginRegistrant {
+module FlutterPluginRegistrant {
   umbrella header "FlutterPluginRegistrant-umbrella.h"
 
   export *

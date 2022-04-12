@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83DAA8F43D74F8D51203DE23C7C3A3F5"
-               BuildableName = "FlutterPluginRegistrant.framework"
+               BuildableName = "libFlutterPluginRegistrant.a"
                BlueprintName = "FlutterPluginRegistrant"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

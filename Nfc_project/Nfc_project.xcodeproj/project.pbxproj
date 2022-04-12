@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A3B6562280558CE00595350 /* Pods_Nfc_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABEC26DBA3F50AB7F61868F /* Pods_Nfc_project.framework */; };
+		09CDB1D8A61CAC59B4AD3E59 /* libPods-Nfc_project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F852B32C5B016D0F068A24A5 /* libPods-Nfc_project.a */; };
 		2AC6EB2E27FD44930026E333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6EB2D27FD44930026E333 /* AppDelegate.swift */; };
 		2AC6EB3027FD44930026E333 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6EB2F27FD44930026E333 /* SceneDelegate.swift */; };
 		2AC6EB3227FD44930026E333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6EB3127FD44930026E333 /* ViewController.swift */; };
@@ -27,8 +27,8 @@
 		2AC6EB3B27FD44950026E333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AC6EB4127FD71EE0026E333 /* Nfc_project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nfc_project.entitlements; sourceTree = "<group>"; };
 		535B6011B46F3E34BB165E25 /* Pods-Nfc_project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nfc_project.release.xcconfig"; path = "Target Support Files/Pods-Nfc_project/Pods-Nfc_project.release.xcconfig"; sourceTree = "<group>"; };
-		AABEC26DBA3F50AB7F61868F /* Pods_Nfc_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nfc_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42EB76B09F617D3CB9A2F67 /* Pods-Nfc_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nfc_project.debug.xcconfig"; path = "Target Support Files/Pods-Nfc_project/Pods-Nfc_project.debug.xcconfig"; sourceTree = "<group>"; };
+		F852B32C5B016D0F068A24A5 /* libPods-Nfc_project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Nfc_project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3B6562280558CE00595350 /* Pods_Nfc_project.framework in Frameworks */,
+				09CDB1D8A61CAC59B4AD3E59 /* libPods-Nfc_project.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		9A95FA7611FEB746D0CEDDAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AABEC26DBA3F50AB7F61868F /* Pods_Nfc_project.framework */,
+				F852B32C5B016D0F068A24A5 /* libPods-Nfc_project.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -379,9 +379,10 @@
 				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Nfc_project/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses the NFC to read the tags.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -393,7 +394,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sslwireless.nfcreader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -413,9 +414,10 @@
 				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Nfc_project/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses the NFC to read the tags.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -427,7 +429,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sslwireless.nfcreader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

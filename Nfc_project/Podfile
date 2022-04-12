@@ -1,20 +1,25 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Nfc_project' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+# target 'Nfc_project' do
+#   # Comment the next line if you don't want to use dynamic frameworks
+#   use_frameworks!
 
-  # Pods for Nfc_project
-  flutter_application_path = '../nfc_module'
-  load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+#   # Pods for Nfc_project
+#   flutter_application_path = '../nfc_module'
+#   load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+#   install_all_flutter_pods(flutter_application_path)
+#   post_install do |installer|
+#     installer.pods_project.targets.each do |target|
+# #      flutter_additional_ios_build_settings(target)
+#       target.build_configurations.each do |build_configuration|
+#         build_configuration.build_settings['ENABLE_BITCODE'] = 'YES'
+#       end
+#     end
+#   end
+# end
+flutter_application_path = '../nfc_module'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+target 'Nfc_project' do
   install_all_flutter_pods(flutter_application_path)
-  post_install do |installer|
-    installer.pods_project.targets.each do |target|
-#      flutter_additional_ios_build_settings(target)
-      target.build_configurations.each do |build_configuration|
-        build_configuration.build_settings['ENABLE_BITCODE'] = 'YES'
-      end
-    end
-  end
 end

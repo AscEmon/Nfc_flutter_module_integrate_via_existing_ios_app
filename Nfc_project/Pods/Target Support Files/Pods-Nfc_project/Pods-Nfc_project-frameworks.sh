@@ -176,19 +176,11 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/nfc_manager/nfc_manager.framework"
   install_framework "${PODS_ROOT}/../../nfc_module/.ios/Flutter/App.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/package_info/package_info.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/sqflite/sqflite.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/nfc_manager/nfc_manager.framework"
   install_framework "${PODS_ROOT}/../../nfc_module/.ios/Flutter/App.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/package_info/package_info.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/sqflite/sqflite.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
