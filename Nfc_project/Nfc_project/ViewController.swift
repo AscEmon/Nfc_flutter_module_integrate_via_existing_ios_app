@@ -1,29 +1,3 @@
-//
-//  ViewController.swift
-//  Nfc_project
-//
-//  Created by Abu Sayed Chowdhury on 6/4/22.
-//
-
-//import UIKit
-//
-//class ViewController: UIViewController {
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        // Do any additional setup after loading the view.
-//        // Inside calculatePressed method
-//
-////let flutterEngine = ((UIApplication.shared.delegate as? AppDelegate)?.flutterEngine)!;
-////let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil);
-////self.present(flutterViewController, animated: true, completion: nil)
-//    }
-//
-//
-//}
-//
-
-
 import UIKit
 import Flutter
 
